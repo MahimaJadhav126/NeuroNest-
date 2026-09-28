@@ -1,0 +1,29 @@
+# Node / Frontend
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python / Backend
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# Local IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backup files created during development
+*.bak
+*.backup
+*.old

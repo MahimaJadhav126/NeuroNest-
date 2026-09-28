@@ -3,6 +3,7 @@ services:
     name: neuronest-api
     runtime: docker
     dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
     plan: free
     envVars:
       - key: PORT
@@ -20,6 +21,7 @@ services:
     name: neuronest-web
     runtime: docker
     dockerfilePath: ./frontend/Dockerfile
+    dockerContext: ./frontend
     plan: free
     envVars:
       - key: VITE_API_URL
